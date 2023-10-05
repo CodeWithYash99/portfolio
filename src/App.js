@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='app-container'>
       <Routes>
-        <Route exact path='/' element={<Home />} />
+        <Route exact path='/portfolio' element={<Home />} />
         <Route path='*' />
       </Routes>
     </div>
