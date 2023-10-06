@@ -1,5 +1,6 @@
 import Navbar from '../Navbar'
 import About from '../About'
+import Skills from '../Skills'
 
 import './index.css'
 
@@ -7,6 +8,7 @@ const Home = () => {
   return (
     <div className='home-container'>
       <Navbar />
+
       <div id='home' className='home-profile-container'>
         <div className='profile-container'>
           <h1 className='profile-headding'>Hey, I am <br />
@@ -18,6 +20,7 @@ const Home = () => {
       </div>
 
       <About />
+      <Skills />
     </div>
   )
 }
