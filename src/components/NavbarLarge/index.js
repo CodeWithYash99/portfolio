@@ -20,19 +20,19 @@ const NavbarLarge = () => {
         </Nav.Item>
         <Nav.Item className='lg-nav-item'>
           <FcAbout className='lg-nav-icon' />
-          <Nav.Link className='lg-item'>About</Nav.Link>
+          <Nav.Link href="/about" className='lg-item'>About</Nav.Link>
         </Nav.Item>
         <Nav.Item className='lg-nav-item'>
           <RiLightbulbFill className='lg-nav-icon' />
-          <Nav.Link className='lg-item'>Skills</Nav.Link>
+          <Nav.Link href="/skills" className='lg-item'>Skills</Nav.Link>
         </Nav.Item>
         <Nav.Item className='lg-nav-item'>
           <AiFillProject className='lg-nav-icon' />
-          <Nav.Link className='lg-item'>Projects</Nav.Link>
+          <Nav.Link href="/projects" className='lg-item'>Projects</Nav.Link>
         </Nav.Item>
         <Nav.Item className='lg-nav-item'>
           <RiContactsBook2Fill className='lg-nav-icon' />
-          <Nav.Link className='lg-item'>Contact</Nav.Link>
+          <Nav.Link href="/contact" className='lg-item'>Contact</Nav.Link>
         </Nav.Item>
       </Navbar>
     </div>

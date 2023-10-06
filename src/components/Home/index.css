@@ -1,0 +1,132 @@
+@media screen and (max-width: 576px) {
+    .home-profile-container {
+        background-color: #191a1d;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 250px;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .profile-container {
+        text-align: center;
+        order: 1;
+    }
+
+    .profile-headding {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .profile-name {
+        color: #4b6cc1;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .profile-role {
+        color: #9aa5b1;
+        font-family: "Roboto";
+        font-size: 14px;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and ((min-width: 577px) and (max-width: 991px)) {
+    .home-profile-container {
+        background-color: #191a1d;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 70px;
+        padding: 30px;
+    }
+
+    .profile-container {
+        text-align: center;
+        order: 1;
+    }
+
+    .profile-headding {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .profile-name {
+        color: #4b6cc1;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .profile-role {
+        color: #9aa5b1;
+        font-family: "Roboto";
+        font-size: 18px;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .home-profile-container {
+        background-color: #191a1d;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 300px;
+        margin-top: 80px;
+    }
+
+    .profile-container {
+        margin-right: 24px;
+    }
+
+    .profile-headding {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .profile-name {
+        color: #4b6cc1;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .profile-role {
+        color: #9aa5b1;
+        font-family: "Roboto";
+        font-size: 22px;
+    }
+
+    .profile-image {
+        margin-left: 24px;
+        width: 200px;
+        height: 200px;
+    }
+}

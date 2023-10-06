@@ -1,0 +1,129 @@
+@media screen and (max-width: 576px) {
+    .about-container {
+        background-color: #323f4b;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 300px;
+        padding: 30px 0;
+    }
+
+    .about-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .about-description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        min-height: 300px;
+    }
+
+    .about-heading {
+        color: #cced00;
+        font-family: sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .about-description {
+        text-align: justify;
+        color: #9aa5b1;
+        font-family: "Roboto";
+        font-size: 16px;
+    }
+}
+
+@media screen and ((min-width: 577px) and (max-width: 991px)) {
+    .about-container {
+        background-color: #323f4b;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 300px;
+        padding: 30px 0;
+    }
+
+    .about-image {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .about-description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        min-height: 300px;
+    }
+
+    .about-heading {
+        color: #cced00;
+        font-family: sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .about-description {
+        text-align: justify;
+        color: #9aa5b1;
+        font-family: "Roboto";
+        font-size: 16px;
+    }
+}
+
+@media screen and ((min-width: 992px)) {
+    .about-container {
+        background-color: #323f4b;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 300px;
+        padding: 50px 0;
+    }
+
+    .about-image {
+        width: 400px;
+        height: 400px;
+        margin-right: 24px;
+        border-radius: 10px;
+    }
+
+    .about-description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 600px;
+        height: 400px;
+        margin-left: 24px;
+    }
+
+    .about-heading {
+        color: #cced00;
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .about-description {
+        text-align: justify;
+        color: #9aa5b1;
+        font-family: "Roboto";
+        font-size: 18px;
+    }
+}
