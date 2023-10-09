@@ -1,0 +1,12 @@
+.footer-bg-container {
+    background-color: #001c32;
+    background-size: cover;
+}
+
+.footer-rights {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin: 14px;
+}

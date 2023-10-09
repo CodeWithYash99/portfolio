@@ -3,6 +3,7 @@ import About from '../About'
 import Skills from '../Skills'
 import Projects from '../Projects'
 import Contact from '../Contact'
+import Footer from '../Footer'
 
 import './index.css'
 
@@ -25,6 +26,7 @@ const Home = () => {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }
