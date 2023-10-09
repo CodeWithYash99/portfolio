@@ -20,9 +20,9 @@ const Skills = () => {
             <h1 className="skills-heading"> Skills </h1>
           </div>
 
-          {skillsList.map((eachSkill) => (
-            <div className="col-6 col-md-3" key={eachSkill.id}>
-              <div className="shadow skill-card text-center mb-3" >
+          <div className="skils-cards-container">
+            {skillsList.map((eachSkill) => (
+              <div className="shadow skill-card text-center col-6 col-md-3 mb-4" key={eachSkill.id}>
                 <img 
                   className="skill-image"
                   src={eachSkill.image}
@@ -30,8 +30,8 @@ const Skills = () => {
                 />
                 <h1 className="skill-name">{eachSkill.skill}</h1>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
