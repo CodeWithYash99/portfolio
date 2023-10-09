@@ -36,7 +36,7 @@ const Projects = () => {
           <div className='projects-card-container'>
             {projectsList.map((eachProject) => (
               <div className='project-card col-12 col-md-4 mb-4' key={eachProject.id}>
-                <a href={eachProject.projectTitle} target="_blank" rel='noreferrer'>
+                <a href={eachProject.projectUrl} target="_blank" rel="noreferrer">
                   <img className='project-image' src={eachProject.imgUrl} alt={eachProject.altText} />
                 </a>
                 <h1 className='project-title text-center'>{eachProject.projectTitle}</h1>
