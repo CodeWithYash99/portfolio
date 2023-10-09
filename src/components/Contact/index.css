@@ -1,0 +1,223 @@
+@media screen and (max-width: 576px) {
+    .contact-bg-container {
+        background-color: #0d2436;
+        background-size: cover;
+    }
+
+    .contact-container {    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-profile-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 14px;
+        padding: 12px;
+    }
+
+    .contact-profile-image {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 12px;
+        border-radius: 50%;
+    }
+
+    .contact-profile-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-profile-name {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .contact-profile-designation {
+        color: #5a7184;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .contact-profile-title {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .contact-icon {
+        color: #5a7184;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .contact-profile-role {
+        color: #5a7184;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500; 
+        margin: 0;       
+    }
+}
+
+
+@media screen and ((min-width: 577px) and (max-width: 992px)) {
+    .contact-bg-container {
+        background-color: #0d2436;
+        background-size: cover;
+    }
+
+    .contact-container {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contact-profile-card-lg {
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+        margin-bottom: 30px;
+    }
+
+    .contact-profile-image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .contact-profile-block {
+        padding-left: 10px;
+    }
+
+    .contact-profile-name {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .contact-profile-designation {
+        color: #5a7184;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .contact-profile-title {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .contact-icon {
+        color: #5a7184;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .contact-profile-role {
+        color: #5a7184;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500; 
+        margin: 0;       
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .contact-bg-container {
+        background-color: #0d2436;
+        background-size: cover;
+    }
+
+    .contact-container {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .contact-profile-card-lg {
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+    }
+
+    .contact-profile-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .contact-profile-block {
+        padding-left: 12px;
+    }
+
+    .contact-profile-name {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .contact-profile-designation {
+        color: #5a7184;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .contact-profile-title {
+        color: #cced00;
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+
+    .contact-icon {
+        color: #5a7184;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .contact-profile-role {
+        color: #5a7184;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500; 
+        margin: 0;       
+    }
+}
+
+
+
+
+
+
