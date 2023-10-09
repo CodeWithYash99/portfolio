@@ -44,7 +44,7 @@
     }
 }
 
-@media screen and ((min-width: 577px) and (max-width: 991px)) {
+@media screen and ((min-width: 577px) and (max-width: 992px)) {
     .projects-container {
         background-color: #3e4c59;
         background-size: cover;
@@ -60,7 +60,10 @@
 
     .projects-card-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .project-card {
@@ -68,7 +71,7 @@
         background-size: cover;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        max-width: 320px;
         min-height: 250px;
         padding-bottom: 12px;
         border-radius: 10px;
