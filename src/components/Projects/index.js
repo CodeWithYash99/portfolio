@@ -1,28 +1,39 @@
 import './index.css'
 
 const projectsList = [
-    {
-        id: 1, 
-        projectTitle: 'Fact About Number', 
-        altText: 'fact-about-number-img', 
-        imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwSl3pwjdWlFVc1_EEX0lWo-YNXf-M0Q9oPQ&usqp=CAU', 
-        projectUrl: 'https://codewithyash99.github.io/fact-about-number/'
-    },
-    {
-        id: 2, 
-        projectTitle: 'Credit Card Control', 
-        altText: 'credit-card-control-img', 
-        imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdn1aqD6jLwMJJNEJY8Q9tr6o8lKFrhHITHE8-byqJt4QX-WDSy3sCfMEeONgRruV_w4Q&usqp=CAU', 
-        projectUrl: 'https://codewithyash99.github.io/credit-card-control/'
-    },
-    {
-        id: 3, 
-        projectTitle: 'Cat Light', 
-        altText: 'cat-light-img', 
-        imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSXBGjfNZsq9HyhARksimzDKUp_Z5fdkO94g&usqp=CAU', 
-        projectUrl: 'https://codewithyash99.github.io/cat-light/'
-    }
-]
+  {
+    id: 1,
+    projectTitle: "Fact About Number",
+    altText: "fact-about-number-img",
+    imgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwSl3pwjdWlFVc1_EEX0lWo-YNXf-M0Q9oPQ&usqp=CAU",
+    projectUrl: "https://codewithyash99.github.io/fact-about-number/",
+  },
+  {
+    id: 2,
+    projectTitle: "Credit Card Control",
+    altText: "credit-card-control-img",
+    imgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdn1aqD6jLwMJJNEJY8Q9tr6o8lKFrhHITHE8-byqJt4QX-WDSy3sCfMEeONgRruV_w4Q&usqp=CAU",
+    projectUrl: "https://codewithyash99.github.io/credit-card-control/",
+  },
+  {
+    id: 3,
+    projectTitle: "Cat Light",
+    altText: "cat-light-img",
+    imgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSXBGjfNZsq9HyhARksimzDKUp_Z5fdkO94g&usqp=CAU",
+    projectUrl: "https://codewithyash99.github.io/cat-light/",
+  },
+  {
+    id: 4,
+    projectTitle: "Weather App",
+    altText: "weather-img",
+    imgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnziI5gASHSbdDtSUFuWGZEd2grSjVmu9D4A&usqp=CAU",
+    projectUrl: "https://codewithyash99.github.io/weather-app/",
+  },
+];
 
 const Projects = () => {
   return (
